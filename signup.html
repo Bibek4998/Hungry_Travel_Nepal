@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SignUp-Form</title>
+		<link rel="stylesheet" href="Assets\CSS\style.css" />
+		<link rel="stylesheet" type="text/css" href="Assets\CSS\signup.css">
+		<script type="text/javascript" src="Assets\Javascript\signup.js"></script>
+</head>
+<body>
+	<form onsubmit=" return data()" id="signupForm">
+		<div class="signUp">
+			<div class="signupForm">
+	
+				<div class="inputs">
+					<h1 id="heading">Sign Up</h1>
+
+					<label for="firstname">First Name</label>
+					<input type="text" name="firstname" id="firstname" placeholder="ex: Bibek" autocomplete="off" autofocus>
+					<span id="firstnameError"></span>
+
+					<label for="lastname">Last Name</label>
+					<input type="text" name="lastname" id="lastname" placeholder="ex: Joshi" autocomplete="off">
+					<span id="lastnameError"></span>
+
+
+					<label for="Email">Email</label>
+					<input type="email" name="eml" id="Email" placeholder="ex: user123@gmail.com" autocomplete="off">
+					<span id="emailError"></span>
+					<label for="Password">Password</label>
+					<input type="password" name="pwd" id="Password" placeholder="Enter your password">
+					<span id="passwordError"></span>
+					<label for="showPassword"><input type="checkbox" name="chkbox" id="showPassword" onclick="displayPassword()">Show Password</label>
+					<button type="submit" id="Button">Sign Up</button>
+			</div>
+	</div>
+</div>
+	</form>
+	  <footer>
+    <div class="footer-section">
+              <div class="company">
+            <h1>Hungry Travels Nepal</h1>
+        </div>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+            <nav>
+                <a href="index.html" target="_blank">Home</a>
+                <a href="ContactUs.html" target="_blank">Contact Us</a>
+            </nav>
+        </div>
+        <div class="social-links">
+          <h2>Follow Us</h2>
+            <div class="social">
+                <a href="https://www.facebook.com" target="_blank"> <img
+                src="Assets\images\facebook.png" id="pic"> </a>
+                <link rel="stylesheet" type="text/css" href="Assets\CSS\signup.css">
+          <a href="https://www.instagram.com" target="_blank"><img src="Assets\images\instagram.jpg" id="pic"></a>
+          <link rel="stylesheet" type="text/css" href="Assets\CSS\signup.css">
+          <a href="https://www.twitter.com" target="_blank"> <img src="Assets\images\twitter.jpg" id="pic"> </a>
+          <link rel="stylesheet" type="text/css" href="Assets\CSS\signup.css">
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p>&copy; 2024 All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

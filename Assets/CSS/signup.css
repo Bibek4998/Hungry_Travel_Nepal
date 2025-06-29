@@ -1,0 +1,70 @@
+.signUp{
+			display: flex;
+			justify-content: center;
+		}
+		.signupForm{
+			 display: flex;
+            flex-direction: column;
+            margin: 10px;
+            width: 70%;
+            background: #E5E4E2;
+            border-radius: 20px;
+            font-size: 20px;
+
+		}
+		.inputs{
+			gap: 10px;
+			display: flex;
+            flex-direction: column;
+            width: 98%;
+            max-width: 800px;
+            margin: 10px;
+		}
+		.inputs h1{
+			text-align: center;
+			border-bottom: 3px groove lightblue;
+			border-radius: 20px;
+			overflow: hidden;
+		}
+		.inputs input{
+			padding: 10px;
+			font-size: 20px;
+			border-radius: 20px;
+			border: none;
+			background: #bec2c0;
+			margin-left: 20px;
+		}
+		.inputs input:hover{
+			background: white;
+		}
+		.inputs input:focus{
+			outline: 2px solid red;
+			background: white;
+		}
+		.inputs label{
+			font-size: 25px;
+			font-weight: bold;
+		}
+		#showPassword{
+			height: 20px;
+			width: 20px;
+			outline: none;
+			
+		}
+		.inputs button{
+			padding: 5px;
+			font-size: 2rem;
+			font-weight: bold;
+			border-radius: 30px;
+			border: none;
+			background: blue;
+			color: white;
+		}
+		.inputs button:hover{
+			background: darkblue;
+		}
+		.inputs span{
+			color: darkred;
+			font-style: italic;
+
+		}

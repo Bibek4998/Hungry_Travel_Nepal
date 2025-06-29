@@ -1,0 +1,125 @@
+	body{
+			background: #fafcfc;
+		}
+	.loginForm{
+		border: 1px solid black;
+		width: 600px;
+		margin: 2% 20% 2% 30%;
+		height: 650px;
+		background: #749fd4;
+		border-radius: 20px;
+		box-shadow: 5px 5px 5px;
+		display: flex;
+		justify-content: center;
+	}
+		.leftDiv{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 15px;
+			align-items: center;
+	}
+	.leftDiv h1{
+		width: 100%;
+		padding: 5px;
+		color: white;
+		font-size: 50px;
+		text-align: center;
+		text-shadow: 2px 8px 8px black;
+		background: #4b42ed;
+	}
+	.leftDiv input{
+		width: 50%;
+		padding: 20px;
+		font-size: 18px;
+		border: none;
+		border-radius: 20px;
+		color: black;
+		height: 10px;
+		background: lightgray;
+		outline: none;
+	}
+	.leftDiv label{
+		color: color;
+		font-size: 28px;
+		text-decoration: none;
+		font-weight: bold;
+
+	}
+	.leftDiv #check{
+		padding: 20px;
+		cursor: pointer;
+		width: 20px;
+		height: 20px;
+	}
+	.leftDiv #check:hover{
+		height: 15px;
+		width: 15px;
+
+	}
+	.leftDiv a{
+		text-decoration: none;
+		color: floralwhite;
+		font-size: 20px;
+		color: black;
+		font-weight: bolder;
+	}
+	.leftDiv p{
+		margin-top: 18px;
+		color: black;
+		font-size: 17px;
+	}
+	.leftDiv button{
+		width: 150px;
+		font-weight: bolder;
+		font-size: 30px;
+		color: black;
+		background: white;
+		border: none;
+		border-radius: 40px;
+		margin-left: 20%;
+		cursor: pointer
+	}
+	.leftDiv button:hover{
+		background: darkblue;
+		transition: 0.5s;
+		color: white;
+	}
+
+	.leftDiv input:hover{
+		color: black;
+		height: 10px;
+		background: white;
+	}
+		.leftDiv input:focus{
+			outline: 3px solid red ;
+			background: white;
+	}
+	.leftDiv  #check{
+		text-align: center;
+		border: none;
+		outline: none;
+	}
+	.leftDiv #check:hover{
+		height: 20px;
+		width: 20px;
+		
+	}
+	.leftDiv #forgotPassword{
+		font-size: 20px;
+	}
+
+	.leftDiv #forgotPassword:hover{
+		border-bottom: 2px solid aqua;
+
+	}
+	.leftDiv #signUp:hover{
+		border-bottom: 2px solid aqua;
+
+	}
+	span{
+		font-size: 20px;
+		color: red;
+		font-style: italic;
+	}
